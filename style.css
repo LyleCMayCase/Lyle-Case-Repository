@@ -248,6 +248,42 @@ footer{
 
     color:#8b8b8b;
 
+.breadcrumb{
+
+    margin-bottom:40px;
+
+    font-size:.92rem;
+
+    color:#777;
+
+}
+
+.breadcrumb a{
+
+    color:#234d7d;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.2s;
+
+}
+
+.breadcrumb a:hover{
+
+    text-decoration:underline;
+
+}
+
+.separator{
+
+    margin:0 8px;
+
+    color:#b6b6b6;
+
+}
+    
 }
 @media (max-width:700px){
 

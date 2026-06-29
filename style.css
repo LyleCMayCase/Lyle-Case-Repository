@@ -1,114 +1,223 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Lyle C. May Case Repository</title>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+body{
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    background:#ffffff;
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    color:#2f2f2f;
 
-<body>
+    font-family:"Inter",sans-serif;
 
-<main class="container">
+    line-height:1.8;
 
-<header>
+}
 
-<h1>The Lyle C. May Case Repository</h1>
+.container{
 
-<p class="subtitle">
-Public Court Filings • Research Materials • Reference Documents
-</p>
+    width:min(980px,90%);
 
-</header>
+    margin:auto;
 
-<section class="intro">
+    padding:80px 0 120px;
 
-<h2>About This Repository</h2>
+}
 
-<p>
+header{
 
-This repository organizes publicly available court filings,
-research materials, forensic records, and reference documents
-related to the case of Lyle C. May.
+    text-align:center;
 
-Its purpose is to make the public record easier to navigate for
-attorneys, journalists, researchers, educators, students, and
-members of the public.
+    margin-bottom:80px;
 
-The documents—not the website—are the focus.
+}
 
-</p>
+h1{
 
-</section>
+    font-family:"Cormorant Garamond",serif;
 
-<section class="collections">
+    font-size:4.3rem;
 
-<a class="card" href="#">
-<span class="number">00</span>
-<h3>READ FIRST</h3>
-<p>Repository orientation and introductory materials.</p>
-<span class="open">Open Collection →</span>
-</a>
+    font-weight:600;
 
-<a class="card" href="#">
-<span class="number">01</span>
-<h3>Supplemental Motion</h3>
-<p>Claims, exhibits, supporting authority, and related documents.</p>
-<span class="open">Open Collection →</span>
-</a>
+    color:#1a1a1a;
 
-<a class="card" href="#">
-<span class="number">02</span>
-<h3>Source Verification Archive</h3>
-<p>Verification of every source cited throughout the repository.</p>
-<span class="open">Open Collection →</span>
-</a>
+    line-height:1.1;
 
-<a class="card" href="#">
-<span class="number">03</span>
-<h3>Court Filings</h3>
-<p>Trial records, motions, orders, appellate filings, and opinions.</p>
-<span class="open">Open Collection →</span>
-</a>
+}
 
-<a class="card" href="#">
-<span class="number">04</span>
-<h3>Public Records</h3>
-<p>Government records, reports, correspondence, and public documents.</p>
-<span class="open">Open Collection →</span>
-</a>
+.subtitle{
 
-<a class="card" href="#">
-<span class="number">05</span>
-<h3>Media</h3>
-<p>News coverage, interviews, publications, and external reporting.</p>
-<span class="open">Open Collection →</span>
-</a>
+    margin-top:18px;
 
-<a class="card" href="#">
-<span class="number">06</span>
-<h3>Updates</h3>
-<p>Repository additions, revisions, and maintenance log.</p>
-<span class="open">Open Collection →</span>
-</a>
+    color:#234d7d;
 
-</section>
+    font-size:.95rem;
 
-<footer>
+    text-transform:uppercase;
 
-<p>
-© 2026 The Lyle C. May Case Repository
-</p>
+    letter-spacing:.18em;
 
-</footer>
+}
 
-</main>
+.intro{
 
-</body>
-</html>
+    margin-bottom:70px;
+
+}
+
+.intro h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2.2rem;
+
+    margin-bottom:20px;
+
+    color:#1b3556;
+
+}
+
+.intro p{
+
+    margin-bottom:22px;
+
+    max-width:760px;
+
+}
+
+.collections h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2.2rem;
+
+    margin-bottom:30px;
+
+    color:#1b3556;
+
+}
+
+.card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:40px;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    padding:30px 36px;
+
+    margin-bottom:20px;
+
+    border:1px solid #d8dde3;
+
+    border-radius:10px;
+
+    transition:.2s;
+
+}
+
+.card:hover{
+
+    border-color:#234d7d;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.number{
+
+    display:block;
+
+    color:#234d7d;
+
+    font-size:.82rem;
+
+    letter-spacing:.20em;
+
+    font-weight:600;
+
+    margin-bottom:8px;
+
+}
+
+.card h3{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2rem;
+
+    color:#222;
+
+    margin-bottom:12px;
+
+}
+
+.card p{
+
+    color:#666;
+
+    max-width:600px;
+
+}
+
+.open{
+
+    white-space:nowrap;
+
+    color:#234d7d;
+
+    font-weight:600;
+
+}
+
+footer{
+
+    margin-top:90px;
+
+    padding-top:35px;
+
+    border-top:1px solid #e6e6e6;
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:.9rem;
+
+}
+
+@media (max-width:700px){
+
+.card{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+.open{
+
+    margin-top:20px;
+
+}
+
+h1{
+
+    font-size:3rem;
+
+}
+
+}

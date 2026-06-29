@@ -50,7 +50,17 @@ h1{
 
 .subtitle{
 .established{
+.updated{
 
+    margin-top:8px;
+
+    font-size:.85rem;
+
+    letter-spacing:.08em;
+
+    color:#8d8d8d;
+
+}
     margin-top:14px;
 
     font-family:"Cormorant Garamond",serif;

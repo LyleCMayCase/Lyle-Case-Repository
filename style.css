@@ -50,15 +50,17 @@ h1{
 
 .subtitle{
 
-    margin-top:18px;
+    margin-top:16px;
 
     color:#234d7d;
 
-    font-size:.95rem;
+    font-size:.90rem;
 
     text-transform:uppercase;
 
-    letter-spacing:.18em;
+    letter-spacing:.10em;
+
+    line-height:1.7;
 
 }
 
@@ -93,7 +95,7 @@ h1{
 .intro{
 
 
-    margin-bottom:70px;
+   margin-bottom:48px;
 
 }
 
@@ -101,7 +103,7 @@ h1{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:2.2rem;
+    font-size:2rem;
 
     margin-bottom:20px;
 
@@ -114,6 +116,8 @@ h1{
     margin-bottom:22px;
 
     max-width:760px;
+
+    line-height:1.9;
 
 }
 

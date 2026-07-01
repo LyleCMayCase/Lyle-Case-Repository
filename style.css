@@ -172,7 +172,23 @@ h1{
 
 }
 
+.section-label{
 
+    font-family:"Inter",sans-serif;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
+    color:#5f6b7a;
+
+    margin-bottom:16px;
+
+}
 
 .collections p{
 
